@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map2"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_primary">
+
+    <!-- fragment -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:focusable="false"
+                android:hint="Yout Location"
+                android:inputType="none"
+                android:text=""
+                android:textColor="#000000"
+                android:textColorHint="#ffffff"
+                android:textSize="14dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/roundedbutton"
+                android:text="Set Location"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+
+
+    </fragment>
+</LinearLayout>

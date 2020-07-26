@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- to select only one item from the menu -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="message">
+
+        </item>
+        <item
+            android:id="@+id/nav_message2"
+            android:icon="@drawable/ic_message"
+            android:title="message">
+
+        </item>
+
+    </group>
+
+    <item android:title="commuciate">
+        <menu>
+            <item
+                android:id="@+id/nav_share3"
+                android:icon="@drawable/ic_message"
+                android:title="share">
+
+            </item>
+            <item
+                android:id="@+id/nav_share4"
+                android:icon="@drawable/ic_message"
+                android:title="share">
+
+            </item>
+        </menu>
+    </item>
+</menu>
